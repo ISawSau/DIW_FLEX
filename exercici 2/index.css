@@ -8,6 +8,21 @@
     width: 3em;
 }
 
+
 .container {
-    
+    display: flex;
+    flex-wrap: wrap;
+}
+.container > div {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.container > div:nth-child(5) {
+    width: 100%;
+}
+.container > div:nth-child(8) {
+    width: 50%;
 }

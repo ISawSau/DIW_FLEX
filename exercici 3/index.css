@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+tbody {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container {
+    display: flex;
+}
+
+td:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+#element {
+    margin-right: 30%;
+}
